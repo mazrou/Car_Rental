@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_car">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.a1171832jumanafinalproj.ui.car.HomeFragment"
+        android:label="Car list"
+        tools:layout="@layout/fragment_home"  />
+
+    <fragment
+        android:id="@+id/nav_car"
+        android:name="com.example.a1171832jumanafinalproj.ui.home.DescriptionPageFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_description_page">
+        <action
+            android:id="@+id/action_nav_car_to_nav_profile3"
+            app:destination="@id/nav_profile" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_reservations"
+        android:name="com.example.a1171832jumanafinalproj.ui.reservations.ReservationsFragment"
+        android:label="Reservation"
+        tools:layout="@layout/fragment_reservations" />
+    <fragment
+        android:id="@+id/nav_favourites"
+        android:name="com.example.a1171832jumanafinalproj.ui.favourites.FavouritesFragment"
+        android:label="Favourites"
+        tools:layout="@layout/fragment_favourites" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.a1171832jumanafinalproj.ui.Profile"
+        android:label="Profile"
+        tools:layout="@layout/profile_fragment" >
+        <argument
+            android:name="Email"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_special"
+        android:name="com.example.a1171832jumanafinalproj.ui.special.SpecialOffersFragment"
+        android:label="Special offers"
+        tools:layout="@layout/fragment_special_offers" />
+
+
+</navigation>

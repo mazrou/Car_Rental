@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/colorAccent"
+    android:clickable="true"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="1dp"
+    app:cardUseCompatPadding="false"
+    app:contentPadding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="10">
+
+
+        <ImageView
+            android:id="@+id/fav_item_img"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:scaleType="centerCrop"
+            tools:srcCompat="@tools:sample/avatars" />
+
+
+        <LinearLayout
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/fav_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In Stock"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fav_item_manufacturer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nissan"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fav_item_model"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skyline 266"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fav_item_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="25km"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fav_item_accident"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Accidents : Never"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fav_item_offer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Offers : Never"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="115dp"
+            android:orientation="vertical"
+            android:paddingEnd="5dp">
+
+            <TextView
+                android:id="@+id/fav_item_price"
+                android:layout_width="111dp"
+                android:layout_height="29dp"
+                android:background="@drawable/capsule"
+                android:gravity="center"
+                android:text="$400"
+                android:textColor="@android:color/background_light"
+                app:layout_constraintBottom_toTopOf="@+id/fav_item_fav"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <ImageView
+                android:id="@+id/fav_item_fav"
+                android:layout_width="25dp"
+                android:layout_height="32dp"
+                android:layout_marginBottom="8dp"
+                android:paddingTop="10dp"
+                app:layout_constraintBottom_toTopOf="@+id/fav_item_book"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/ic_baseline_favorite_24" />
+
+            <Button
+                android:id="@+id/fav_item_book"
+                android:layout_width="106dp"
+                android:layout_height="34dp"
+                android:background="@drawable/halfarc"
+                android:text="Book now ►"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

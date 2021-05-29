@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_navigation"
+    app:startDestination="@id/admin_profile">
+
+    <fragment
+        android:id="@+id/admin_profile"
+        android:name="com.example.a1171832jumanafinalproj.ui.Profile"
+        android:label="Profile"
+        tools:layout="@layout/profile_fragment" >
+        <argument
+            android:name="Email"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/admin_costumers"
+        android:name="com.example.a1171832jumanafinalproj.ui.admin.CostumerListFragment"
+        android:label="Costumer list"
+        tools:layout="@layout/fragment_costumer_list"/>
+    <fragment
+        android:id="@+id/admin_reservations"
+        android:name="com.example.a1171832jumanafinalproj.ui.reservations.ReservationsFragment"
+        android:label="fragment_reservations"
+        tools:layout="@layout/fragment_reservations" />
+    <fragment
+        android:id="@+id/admin_add_admin"
+        android:name="com.example.a1171832jumanafinalproj.ui.admin.AddAdminFragment"
+        android:label="AddAdminFragment"
+        tools:layout="@layout/fragment_add_admin"/>
+    <fragment
+        android:id="@+id/admin_delete"
+        android:name="com.example.a1171832jumanafinalproj.ui.admin.DeleteCostumerFragment"
+        android:label="DeleteCostumerFragment" />
+</navigation>

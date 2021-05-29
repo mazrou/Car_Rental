@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>FEMALE</item>
+        <item>MALE</item>
+    </string-array>
+
+    <string-array name="YesNoItems">
+        <item>Nan</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="YearsItems">
+        <item>Nan</item>
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+
+    </string-array>
+
+
+    <string-array name="NamesItems">
+        <item>Nan</item>
+        <item>CHEVROLET</item>
+        <item>SUBARU</item>
+        <item>DUCATI</item>
+        <item>SATURN</item>
+        <item>RAM</item>
+        <item>FERRARI</item>
+        <item>BMW</item>
+        <item>FORD</item>
+        <item>HONDA</item>
+        <item>KAWASAKI</item>
+        <item>KIA</item>
+        <item>AUDI</item>
+        <item>GMC</item>
+        <item>MAZDA</item>
+        <item>VOLVO</item>
+
+    </string-array>
+
+
+    <string-array name="ModelItems">
+        <item>Nan</item>
+        <item>TORNADO</item>
+        <item>TRACKER</item>
+        <item>LEGACY</item>
+        <item>OUTBACK</item>
+        <item>AVEO</item>
+        <item>1198</item>
+        <item>OUTLOOK</item>
+        <item>DAKOTA</item>
+        <item>458 ITALIA</item>
+        <item>325I</item>
+        <item>F-150</item>
+        <item>TRX420FPM RANCHER 4X4 W/ POWER STEE</item>
+        <item>JT1500 ULTRA 300 X</item>
+        <item>FORTE KOU</item>
+        <item>S8</item>
+        <item>SQ5</item>
+        <item>740I</item>
+        <item>740LD XDRIVE</item>
+        <item>SIERRA 2500 HD</item>
+        <item>SORENTO</item>
+        <item>6</item>
+        <item>CX-5</item>
+        <item>XC90</item>
+
+    </string-array>
+
+
+    <string-array name="Countries">
+        <item>Palestine</item>
+        <item>Egypt</item>
+        <item>Jordan</item>
+        <item>Turkey</item>
+        <item>Lebanon</item>
+        <item>United States of America</item>
+        <item>United kingdom</item>
+        <item>China</item>
+
+    </string-array>
+
+    <string-array name="City">
+        <item>Ramallah</item>
+        <item>Hebron</item>
+        <item>Jericho</item>
+        <item>Cairo</item>
+        <item>Alexandria</item>
+        <item>Hurghada</item>
+        <item>Oman</item>
+        <item>Irbid</item>
+        <item>Salt</item>
+
+    </string-array>
+
+</resources>

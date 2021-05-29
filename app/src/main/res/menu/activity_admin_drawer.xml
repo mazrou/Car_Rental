@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/admin_profile"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/admin_costumers"
+            android:icon="@drawable/ic_home"
+            android:title="Costumers" />
+
+        <item
+            android:id="@+id/admin_delete"
+            android:icon="@drawable/ic_delete"
+            android:title="Delete Costumer" />
+
+
+        <item
+            android:id="@+id/admin_add_admin"
+            android:icon="@drawable/ic_baseline_list_alt_24"
+            android:title="Add admin" />
+
+
+        <item
+            android:id="@+id/admin_reservations"
+            android:icon="@drawable/ic_baseline_credit_card_24"
+            android:title="Reservations" />
+
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/admin_logout"
+                android:icon="@android:drawable/ic_lock_lock"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+
+</menu>
