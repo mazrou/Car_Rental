@@ -45,4 +45,8 @@
     <string name="login_failed">"Login failed"</string>
     <string name="add_new_admin">Add new Admin</string>
     <string name="account_icon">Account icon</string>
+    <string name="import_image">Import image</string>
+    <string name="take_photo">Take photo</string>
+    <string name="select">Select</string>
+    <string name="cancel">Cancel</string>
 </resources>
